@@ -2,6 +2,6 @@
 void main()
 {
   int m;
-  m=9*2;
+  m=9*2; //Multiply 9 and 2 and store its sum in variable m
   printf("%d",m);
 }
