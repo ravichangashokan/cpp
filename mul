@@ -1,7 +1,9 @@
 #include<stdio.h>
 void main()
 {
-  int m;
-  m=9*2;
+  int m,a,b;
+  printf("Enter 2 numbers :");
+  scanf("%d %d",&a,&b);
+  m=a*b;
   printf("%d",m);
 }
