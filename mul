@@ -1,7 +1,11 @@
 #include<stdio.h>
 void main()
 {
-  int m;
-  m=9*2;
-  printf("%d",m);
+  int m,n,mul;
+  printf("Enter first number");
+  scanf("%d",&m);
+  printf("Enter the second number");
+  scanf("%d",&n);
+  mul = m*n;
+  printf("%d",mul);
 }
